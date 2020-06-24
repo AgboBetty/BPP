@@ -14,7 +14,7 @@ const cookieExtractor = req=>{
 //authorization to protect end-points
 passport.use(new JwtStrategy({
     jwtFromRequest : cookieExtractor,
-    secretOrKey : "Contractor"
+    secretOrKey : "NoobCoder"
 },(payload, done)=>{
     Contractor.findById({_id: payload.sub},(err, contractor)=>{
 if(err)

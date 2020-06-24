@@ -29,7 +29,7 @@ passwordResetExpires:{
 email:{
 type: String,
 lowercase: true,
-required: [true, "cant be blank"]
+//required: [true, "cant be blank"]
 // match: [/^[a-zA-Z0-9]+$/,  'is invalid']
 // match: [/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/, 'is valid']
 },
